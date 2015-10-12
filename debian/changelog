@@ -1,3 +1,9 @@
+h5py (2.2.1-1build3~gem01) precise; urgency=low
+
+  * Removed compilation of python 3 packages for Ubuntu 12.04.
+
+ -- Matteo Nastasi (GEM Foundation) <nastasi@openquake.org>  Mon, 12 Oct 2015 13:52:39 +0200
+
 h5py (2.2.1-1build2) trusty; urgency=medium
 
   * No change rebuild to drop python3.3 compiled extension.
