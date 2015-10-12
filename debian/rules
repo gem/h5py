@@ -4,9 +4,7 @@ include /usr/share/cdbs/1/class/python-distutils.mk
 
 binary-install/python-h5py::
 	dh_python2
-	dh_python3
 	dh_numpy
-	dh_numpy3
 
 clean::
 	$(RM) setuptools-0.6c9-py2.5.egg
