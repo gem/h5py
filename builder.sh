@@ -13,7 +13,7 @@ if [ "$1" = "build" ]; then
     rm -rf "build/$destdir"/orig
     rm -rf "build/$destdir"/builder.sh
     cd "build/$destdir"
-    dpkg-buildpackage
+    dpkg-buildpackage "$@"
 elif [ "$1" = "clean" ]; then
     rm -rf "build"
 fi
