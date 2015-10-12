@@ -1,0 +1,99 @@
+h5py (2.2.1-1build2) trusty; urgency=medium
+
+  * No change rebuild to drop python3.3 compiled extension.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 01 Apr 2014 14:16:38 +0100
+
+h5py (2.2.1-1build1) trusty; urgency=low
+
+  * rebuild with cython 0.20
+
+ -- Julian Taylor <jtaylor@ubuntu.com>  Mon, 27 Jan 2014 19:39:57 +0100
+
+h5py (2.2.1-1) unstable; urgency=low
+
+  * New upstream version
+  * Fix python3 dependency (Closes: #732586)
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Sat, 04 Jan 2014 23:18:29 +0100
+
+h5py (2.2.0-1) unstable; urgency=low
+
+  * New upstream version (Closes: #691797, #691282)
+  * Bump compat version to 9.
+  * Bump standards version to 3.9.4.
+  * Provide python3 package (Closes: #670545)
+  * Update Vcs-* field (Closes: #664325)
+  * Add cython as build deps.
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Sat, 16 Nov 2013 06:46:45 +0100
+
+h5py (2.0.1-2) unstable; urgency=low
+
+  * Build depend on libhdf5-dev instead of libhdf5-serial-dev to accomodate
+  hdf5 transition.
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Wed, 18 Jan 2012 21:50:16 +0100
+
+h5py (2.0.1-1) unstable; urgency=low
+
+  * New upstream version.
+  * Remove h5py_config.pickle created on
+    python setup.py clean (Closes: #643152)
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Wed, 12 Oct 2011 12:47:45 +0200
+
+h5py (2.0.0-1) unstable; urgency=low
+
+  * New upstream version.
+  * Bump standards version to 3.9.2 (no changes required).
+  * Switch package to dh_python2.
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Sun, 24 Jul 2011 21:13:37 +0200
+
+h5py (1.3.1-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Wed, 12 Jan 2011 14:48:19 +0100
+
+h5py (1.3.0-3) unstable; urgency=low
+
+  * Convert package to pysupport and call dh_numpy upon install
+    (Closes: #590738,#589835).
+  * Bump standards version to 3.9.1.0 (no changes required).
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Fri, 30 Jul 2010 21:12:45 +0200
+
+h5py (1.3.0-2) unstable; urgency=low
+
+  * Update watch file for recent google code change.
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Thu, 27 May 2010 10:49:01 +0200
+
+h5py (1.3.0-1) unstable; urgency=low
+
+  * New upstream version.
+    - Remove quilt patches.
+    - Bump standards version to 3.8.4 (no changes required).
+    - Switch to dpkg-source 3.0 (quilt) format.
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Tue, 23 Mar 2010 15:38:34 +0100
+
+h5py (1.2.1-2) unstable; urgency=low
+
+  * Build-depend on hdf5 >= 1.8.3 and enable api 1.8 (Closes: #548049)
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Thu, 24 Sep 2009 11:08:03 +0200
+
+h5py (1.2.1-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Tue, 15 Sep 2009 08:01:40 +0200
+
+h5py (1.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #543766)
+
+ -- Soeren Sonnenburg <sonne@debian.org>  Wed, 26 Aug 2009 23:50:43 +0200

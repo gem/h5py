@@ -1,0 +1,58 @@
+Source: h5py
+Section: python
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Soeren Sonnenburg <sonne@debian.org>
+Build-Depends: debhelper (>=9), cdbs (>= 0.4.90~), python-all-dev (>= 2.7.0-1~),
+ python3-all-dev (>= 3.3.0-1~), libhdf5-dev, python-numpy (>= 1:1.7.1-1~),
+ python3-numpy (>= 1:1.7.1-1~), cython, cython3
+Standards-Version: 3.9.4
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.3
+Homepage: http://code.google.com/p/h5py/
+Vcs-Svn: https://bollin.googlecode.com/svn/h5py/
+Vcs-Browser: https://code.google.com/p/bollin/source/browse/h5py/
+
+Package: python-h5py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: h5py is a general-purpose Python interface to hdf5
+ HDF5 for Python (h5py) is a general-purpose Python interface to the
+ Hierarchical Data Format library, version 5. HDF5 is a versatile, mature
+ scientific software library designed for the fast, flexible storage of
+ enormous amounts of data. 
+ . 
+ From a Python programmer's perspective, HDF5 provides a robust way to
+ store data, organized by name in a tree-like fashion. You can create
+ datasets (arrays on disk) hundreds of gigabytes in size, and perform
+ random-access I/O on desired sections. Datasets are organized in a
+ filesystem-like hierarchy using containers called "groups", and accessed
+ using the tradional POSIX /path/to/resource syntax. 
+ . 
+ H5py provides a simple, robust read/write interface to HDF5 data from
+ Python. Existing Python and Numpy concepts are used for the interface;
+ for example, datasets on disk are represented by a proxy class that
+ supports slicing, and has dtype and shape attributes. HDF5 groups are
+ presented using a dictionary metaphor, indexed by name.
+
+Package: python3-h5py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
+Description: h5py is a general-purpose Python interface to hdf5
+ HDF5 for Python (h5py) is a general-purpose Python interface to the
+ Hierarchical Data Format library, version 5. HDF5 is a versatile, mature
+ scientific software library designed for the fast, flexible storage of
+ enormous amounts of data. 
+ . 
+ From a Python programmer's perspective, HDF5 provides a robust way to
+ store data, organized by name in a tree-like fashion. You can create
+ datasets (arrays on disk) hundreds of gigabytes in size, and perform
+ random-access I/O on desired sections. Datasets are organized in a
+ filesystem-like hierarchy using containers called "groups", and accessed
+ using the tradional POSIX /path/to/resource syntax. 
+ . 
+ H5py provides a simple, robust read/write interface to HDF5 data from
+ Python. Existing Python and Numpy concepts are used for the interface;
+ for example, datasets on disk are represented by a proxy class that
+ supports slicing, and has dtype and shape attributes. HDF5 groups are
+ presented using a dictionary metaphor, indexed by name.

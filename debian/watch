@@ -1,0 +1,4 @@
+version=3
+opts=downloadurlmangle=s#.*(h5py-(.*)\.tar\.gz).*#http://h5py.googlecode.com/files/$1#,filenamemangle=s#.*(h5py-(.*)\.tar\.gz).*#$1# \
+	http://code.google.com/p/h5py/downloads/list ^.*detail\?name=h5py-(.*)\.tar\.gz.* \
+    debian debian/orig-tar.sh
