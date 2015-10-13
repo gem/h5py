@@ -1,3 +1,9 @@
+h5py (2.2.1-1build3~gem04) precise; urgency=low
+
+  * Forced dependency from libhdf5-serial-dev.
+
+ -- Matteo Nastasi (GEM Foundation) <nastasi@openquake.org>  Tue, 13 Oct 2015 10:06:22 +0200
+
 h5py (2.2.1-1build3~gem03) precise; urgency=low
 
   * Add mpi include path.

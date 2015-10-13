@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Soeren Sonnenburg <sonne@debian.org>
 Build-Depends: debhelper (>=9), cdbs (>= 0.4.90~), python-all-dev (>= 2.7.0-1~),
- libhdf5-dev, python-numpy (>= 1:1.6.1),
+ libhdf5-serial-dev, python-numpy (>= 1:1.6.1),
  cython
 Standards-Version: 3.9.4
 X-Python-Version: >= 2.7
